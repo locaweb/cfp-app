@@ -71,3 +71,5 @@ group :development, :test do
   gem 'pry-rescue'
   gem 'pry-remote'
 end
+
+gem 'bundler', '>= 2.6'
