@@ -46,4 +46,7 @@ Rails.application.configure do
   I18n.enforce_available_locales = false
 
   config.assets.debug = true
+
+  # Specify Rails version
+  config.load_defaults 7.2
 end
