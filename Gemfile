@@ -46,7 +46,7 @@ group :development do
   gem 'binding_of_caller'
   gem 'foreman'
   gem 'launchy'
-  gem 'quiet_assets'
+  gem 'quiet_assets', '>= 1.2.0'
   gem 'rack-mini-profiler'
   gem 'haml-rails'
   gem 'spring-commands-rspec', require: false
