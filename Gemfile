@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
+ruby '3.3.0'
 
-gem 'rails', '4.2.5'
+gem 'rails', '7.2.0'
 gem 'puma', '~> 2.13'
 
 gem 'pg'
@@ -16,7 +16,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'rails-assets-momentjs', source: 'https://rails-assets.org'
 gem 'selectize-rails'
 
-gem 'devise', '~> 4.1.1'
+gem 'devise', '~> 4.8.0'
 gem 'omniauth-github'
 gem 'omniauth-twitter'
 
@@ -28,7 +28,7 @@ gem 'coderay', '~> 1.0'
 gem 'bootstrap-multiselect-rails', '~> 0.9.9'
 gem 'active_model_serializers', '~> 0.8.1'
 gem 'draper'
-gem 'simple_form', '3.1.1'
+gem 'simple_form', '>= 5.1.0'
 gem 'zeroclipboard-rails'
 gem 'responders', '~> 2.0'
 gem 'pundit'
@@ -46,7 +46,7 @@ group :development do
   gem 'binding_of_caller'
   gem 'foreman'
   gem 'launchy'
-  gem 'quiet_assets'
+  gem 'quiet_assets', '>= 1.2.0'
   gem 'rack-mini-profiler'
   gem 'haml-rails'
   gem 'spring-commands-rspec', require: false
@@ -71,3 +71,5 @@ group :development, :test do
   gem 'pry-rescue'
   gem 'pry-remote'
 end
+
+gem 'bundler', '>= 2.6'

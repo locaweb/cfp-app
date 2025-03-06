@@ -45,4 +45,7 @@ Rails.application.configure do
   I18n.enforce_available_locales = false
 
   config.time_zone = ENV['TIMEZONE'] || "Pacific Time (US & Canada)"
+
+  # Specify Rails version
+  config.load_defaults 7.2
 end

@@ -95,4 +95,7 @@ Rails.application.configure do
   config.time_zone = ENV['TIMEZONE'] || "Pacific Time (US & Canada)"
 
   Rack::Timeout.timeout = 15
+
+  # Specify Rails version
+  config.load_defaults 7.2
 end
