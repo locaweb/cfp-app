@@ -1,4 +1,4 @@
-class CreateTimeSlots < ActiveRecord::Migration
+class CreateTimeSlots < ActiveRecord::Migration[7.2]
   def change
     create_table :time_slots do |t|
       t.references :program_session, index: true

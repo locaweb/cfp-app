@@ -1,4 +1,4 @@
-class CreateProgramSessions < ActiveRecord::Migration
+class CreateProgramSessions < ActiveRecord::Migration[7.2]
   def change
     create_table :program_sessions do |t|
       t.references :event, index: true
